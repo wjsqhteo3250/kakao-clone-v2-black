@@ -4,7 +4,7 @@
   top: 0px;
   width: 100%;
   padding: 5px 0px;
-  background-color: white;
+  background-color: #1e1f21;
   box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
     0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
@@ -66,6 +66,8 @@
 }
 
 .chat__write {
+  background-color: #1e1f21;
+  color: white;
   margin: 0 auto;
   bottom: 0px;
   width: 100%;
@@ -100,10 +102,6 @@
   font-size: 22px;
 }
 
-.chat__write-column:nth-child(2) {
-  width: 80%;
-}
-
 .chat__screen .chat__messages {
   border-top: 1px solid #f7f7f7;
   display: flex;
@@ -114,7 +112,7 @@
 }
 
 .chat__messages .chat__timestamp {
-  background-color: white;
+  background-color: #1e1f21;
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 10px;
